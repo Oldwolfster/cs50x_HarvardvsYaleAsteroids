@@ -2,7 +2,7 @@
 #### Video Demo:  <URL HERE>
 #### Description:  This project stands on the shoulders of giants, inspired by the pioneering work of Steve Russell and his colleagues who brought us "Spacewar!" in 1962.  This version, is meant to push Scratch to the LIMIT, demonstrating that as long as you have the "standard building blocks", anything is possible!   Even if they are simple Scratch components.
 
-### Overview:  The protagonist of the story is the Harvard ship, which must evade and defeat the Yale Asteroids and MIT sharpshooters.
+### Overview:  The protagonist of the story is the Harvard ship, which must evade and destroy the Yale Asteroids and MIT sharpshooters.
 
 ### **Ways this implementation pushes Scratch to the limit  Details Below** 
 - **Scoreboard and Level Announcement using "real fonts"**
