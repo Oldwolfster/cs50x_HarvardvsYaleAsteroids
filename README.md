@@ -28,24 +28,24 @@
 - **Lives Display:**
 - **Explosion Particles:**
 
-### Key Variable: GameState is essential the "lifecycle" of the game.  It can have these values.
+### Key Variable: GameState tracks the "lifecycle" of the game.  It can have these values.
 
-- **Pregame states are all negative**:
--10 Display Instr From Mother Ship
--9 Wait for user to read instructions
--8 Mothership going to warp drive
--7 Intro Over Start Main Loop
--5 Show Level
--4 Wait on lvl
--3 fade lvl
--2 ready to laucnh ship as invulnerable.
+**Pregame states are all negative**:
+- -10 Display Instr From Mother Ship
+- -9 Wait for user to read instructions
+- -8 Mothership going to warp drive
+- -7 Intro Over Start Main Loop
+- -5 Show Level
+- -4 Wait on lvl
+- -3 fade lvl
+- -2 ready to laucnh ship as invulnerable.
 
-- ** States during gameplay
-0 invulnerable (waiting for player to start)
-1 vulnerable (The actual game play)
-2 Dead (but still have lives remaining)
-3 beat level
-1 Game Over
+**States during gameplay**:
+- 0 invulnerable (waiting for player to start)
+- 1 vulnerable (The actual game play)
+- 2 Dead (but still have lives remaining)
+- 3 beat level
+- 4 Game Over
 
 ### Component Details:
 - **Scoreboard:** While not the most exciting aspect of the game, i do believe this is what pushed Scratch the most.  I would like to try to package it to share with other Scratch developers.
@@ -143,8 +143,7 @@
       - Checking for collision with Harvard Ship.
       - Checking for hitting border (bullet is destroyed)
 - **Instruction Panel:**
-  - Only the verbiage in the instructions.  They are removed from logic in Harvard Mothership.
+  - Only the verbiage in the instructions.  The instructions are removed by logic in Harvard Mothership.
 - **Level Announcement:** Fades in and out between levels.  Functions similar to Scoreboard.
-
 - **Lives Display:**  Functions similar to Scoreboard.
 - **Explosion Particles:**  Spawn when something is shot for special effects.
