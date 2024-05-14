@@ -31,21 +31,21 @@
 ### Key Variable: GameState is essential the "lifecycle" of the game.  It can have these values.
 
 - **Pregame states are all negative**:
-- -10 Display Instr From Mother Ship
-- -9 Wait for user to read instructions
-- -8 Mothership going to warp drive
-- -7 Intro Over Start Main Loop
-- -5 Show Level
-- -4 Wait on lvl
-- -3 fade lvl
-- -2 ready to laucnh ship as invulnerable.
+-10 Display Instr From Mother Ship
+-9 Wait for user to read instructions
+-8 Mothership going to warp drive
+-7 Intro Over Start Main Loop
+-5 Show Level
+-4 Wait on lvl
+-3 fade lvl
+-2 ready to laucnh ship as invulnerable.
 
 - ** States during gameplay
-- 0 invulnerable (waiting for player to start)
-- 1 vulnerable (The actual game play)
-- 2 Dead (but still have lives remaining)
-- 3 beat level
--11 Game Over
+0 invulnerable (waiting for player to start)
+1 vulnerable (The actual game play)
+2 Dead (but still have lives remaining)
+3 beat level
+1 Game Over
 
 ### Component Details:
 - **Scoreboard:** While not the most exciting aspect of the game, i do believe this is what pushed Scratch the most.  I would like to try to package it to share with other Scratch developers.
